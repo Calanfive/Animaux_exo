@@ -9,9 +9,8 @@ export abstract class Mammiferes implements Ianimaux {
         this._temps_Gestation = temps_Gest
     }
     
-    cri(): string {
-        return console.log("nous sommes des mammifères");
-        
+    cri() {
+        console.log("nous sommes des mammifères");
     }
 
     

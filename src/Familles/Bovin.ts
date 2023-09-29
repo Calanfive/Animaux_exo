@@ -6,5 +6,13 @@ export abstract class Bovin extends Mammiferes {
     constructor(nomBovin: string, tempsDEgestation: number, poidsBovin: number) {
         super(nomBovin, tempsDEgestation)
         this._poids = poidsBovin
+
+        
     }
+    
+    cri(){
+        super.cri()
+        console.log("Nous sommes des bovins")
+    }
+
 }

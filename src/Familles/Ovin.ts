@@ -9,4 +9,9 @@ export abstract class Ovin extends Mammiferes {
         this._alimentation = alimention
     }
 
+    cri(){
+        super.cri()
+        console.log("Nous sommes des ovins")
+    }
+
 }
